@@ -16,8 +16,7 @@ if(n%2!=0):
         else:
             start=(start+n-1)%n
             j=(j+n-1)%n
-    for i in range(0,n):
-        print(matrix)
+    print(matrix)
 if(n%4==0):
     quo=int(n/4)
     for i in range(0,quo):
@@ -39,5 +38,4 @@ if(n%4==0):
         for j in range(0, n):
             if(matrix[i][j]==0):
                 matrix[i][j]=n*n-i*n-j
-    for i in range(0,n):
-        print(matrix[i])
+    print(matrix)
